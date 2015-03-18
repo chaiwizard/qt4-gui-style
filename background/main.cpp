@@ -32,6 +32,5 @@ int main(int argc, char *argv[])
     //widget.setStyleSheet("QWidget {background : url(:/images/background.png);}");
 
 
-
 	return app.exec();
 }

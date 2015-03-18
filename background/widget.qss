@@ -1,12 +1,4 @@
-QWidget {
+QWidget#testwidget {
     background : url(:/images/background.png);
-}
-
-QPushButton {
-     background-color: #CD96CD;
-}
-
-QPushButton:pressed {
-     background-color: #FF;
 }
 

@@ -11,13 +11,14 @@
 Widget::Widget(QWidget *parent)
 	:QWidget(parent)
 {
+    setObjectName("testwidget");
 	QVBoxLayout *layout = new QVBoxLayout;
 	label = new QLabel(tr("put_msg_here"));
 
 	layout->addWidget(label);
     layout->addStretch(1);
 	
-	button = new QPushButton(tr("click_me"));
+    button = new QPushButton(tr("click_me"));
     button->setSizePolicy(QSizePolicy::Fixed,QSizePolicy::Minimum);
 	layout->addWidget(button);
 
