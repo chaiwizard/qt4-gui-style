@@ -13,3 +13,6 @@ SOURCES += main.cpp widget.cpp
 
 RESOURCES += \
     background.qrc
+
+OTHER_FILES += \
+    widget.qss

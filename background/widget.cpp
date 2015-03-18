@@ -11,7 +11,6 @@
 Widget::Widget(QWidget *parent)
 	:QWidget(parent)
 {
-#if 0
 	QVBoxLayout *layout = new QVBoxLayout;
 	label = new QLabel(tr("put_msg_here"));
 
@@ -23,7 +22,6 @@ Widget::Widget(QWidget *parent)
 	layout->addWidget(button);
 
 	setLayout(layout);
-#endif
 }
 
 Widget::~Widget()
